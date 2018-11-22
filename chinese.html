@@ -18,7 +18,7 @@
   <link href='css/bootstrap.min.css' rel='stylesheet'>
 
   <!-- Link to CSS page -->
-  <link rel="stylesheet" type="text/css" href="language_pages.css">
+  <link rel="stylesheet" type="text/css" href="Chinese.css">
 </head>
 
 <body>
@@ -26,7 +26,7 @@
 
         <!-- Navigation Bar -->
         		<div class="navigation">
-        			<ul class="nav navbar nav-light justify-content-end" style="background-color: #e3f2fd">
+        			<ul class="nav navbar justify-content-end" style="background-color: #F6E8EA">
                   <li class="nav-item">
                     <a class="nav-item nav-link" href="#" role="button">Home</a>
                       </li>
@@ -52,14 +52,19 @@
     <div class="container">
       <div class="row">
 
-        <div>
+        <div class="col-sm-9">
           <h1 class="display-3">Chinese To Get You Started!</h1>
         </div>
+        <div class="col-sm-3">
+          <img src="images/chinese_flag.png" alt="flag">
+        </div>
 
-      <div>
+
+
+      <div class="boxed">
         <blockquote class="blockquote">
-        <p>With approximately 1.2 billion speakers around the world, Mandarin is the most commonly used Chinese dialect and the official language of the People’s Republic of China. Mandarin is written using characters, however a romanized phonetic spelling system known as Pinyin was created in the 1950s as a way of more easily teaching a single standard of pronunciation. This is also extremely useful for foreigners trying to learn the language, as it shows the tones and a (somewhat) recognisable combination of letters!</p>
-          </blockequote>
+        <p>With approximately 1.2 billion speakers around the world, Mandarin is the most commonly used Chinese dialect and the official language of the People’s Republic of China. Mandarin is written using characters, however a romanized phonetic spelling system known as Pinyin was created in the 1950s as a way of more easily teaching a single standard of<br>pronunciation. This is also extremely useful for foreigners trying to learn the language, as it shows the tones and a (somewhat) recognisable combination of letters!</p>
+          </blockquote>
           </div>
 
           </div>
@@ -68,18 +73,18 @@
 
             <br>
 
-      <div> <!-- contains both tables -->
+      <div class="both-tables"> <!-- contains both tables -->
         <div class="table-responsive"> <!-- contains this table -->
       <!--Table Design -->
-      <table style="width:100%" class= "table mx-auto table-striped table-hover table-bordered">
+      <table style="width:95%" class= "table mx-auto table-striped table-hover table-bordered">
         <tr>
-          <th>English</th>
-          <th>Chinese</th>
-          <th>Pinyin</th>
-          <th>Phonetics</th>
-          <th>Hear it here</th>
+            <th>English</th>
+            <th>Chinese</th>
+            <th>Pinyin</th>
+            <th>Pronunciation</th>
+            <th>Hear it here!</th>
         </tr>
-        <tr>
+        <tr class="change">
           <td>Hello!</td>
           <td>你好！</td>
           <td>nǐhǎo</td>
@@ -88,7 +93,7 @@
             <source src="voice_recordings\nihao.mp3" type="audio/mpeg">
               </audio></td>
         </tr>
-        <tr>
+        <tr class="change">
           <td>Goodbye!</td>
           <td>再见！</td>
           <td>zaìjiàn</td>
@@ -97,7 +102,7 @@
             <source src="voice_recordings\zaijian.mp3" type="audio/mpeg">
               </audio></td>
         </tr>
-        <tr>
+        <tr class="change">
           <td>How are you?</td>
           <td>你好吗？</td>
           <td>nǐhǎoma?</td>
@@ -106,161 +111,231 @@
             <source src="voice_recordings\nihaoma.mp3" type="audio/mpeg">
               </audio></td>
         </tr>
-        <tr>
+        <tr class="change">
           <td>I'm well, thank you!</td>
           <td>很好，谢谢！</td>
           <td>hěnhǎo, xièxiè</td>
           <td><em>hun-how-syeh-syeh</em></td>
+          <td><audio controls>
+            <source src="voice_recordings\henhao.mp3" type="audio/mpeg">
+              </audio></td>
         </tr>
-        <tr>
+        <tr class="change">
           <td>I don't understand</td>
           <td>听不懂</td>
           <td>tīngbùdǒng</td>
           <td><em>ting-bu-dong</em></td>
+          <td><audio controls>
+            <source src="voice_recordings\tingbudong.mp3" type="audio/mpeg">
+              </audio></td>
         </tr>
-        <tr>
+        <tr class="change">
           <td>Please</td>
           <td>请</td>
           <td>qǐng</td>
           <td><em>tsing</em></td>
+          <td><audio controls>
+            <source src="voice_recordings\qing.mp3" type="audio/mpeg">
+              </audio></td>
         </tr>
-        <tr>
+        <tr class="change">
           <td>Thank you</td>
           <td>谢谢</td>
           <td>xièxiè</td>
           <td><em>syeh-syeh</em></td>
+          <td><audio controls>
+            <source src="voice_recordings\xiexie.mp3" type="audio/mpeg">
+              </audio></td>
         </tr>
-        <tr>
+        <tr class="change">
           <td>I'm sorry</td>
           <td>不好意思</td>
           <td>bùhǎoyīsì</td>
           <td><em>bu-how-ee-si</em></td>
+          <td><audio controls>
+            <source src="voice_recordings\buhaoyisi.mp3" type="audio/mpeg">
+              </audio></td>
         </tr>
-        <tr>
+        <tr class="change">
           <td>Excuse me</td>
           <td>请问</td>
           <td>qǐngwèn</td>
           <td><em>tsing-wen</em></td>
+          <td><audio controls>
+            <source src="voice_recordings\qingwen.mp3" type="audio/mpeg">
+              </audio></td>
         </tr>
-        <tr>
+        <tr class="change">
           <td>Help!</td>
           <td>可以帮忙？</td>
           <td>kěyǐbàngmáng</td>
           <td><em>ck-ee-bung-mang</em></td>
+          <td><audio controls>
+            <source src="voice_recordings\bangmang.mp3" type="audio/mpeg">
+              </audio></td>
         </tr>
-        <tr>
+        <tr class="change">
           <td>Where is...?</td>
           <td>... 在哪儿？</td>
           <td>...zàinǎer?</td>
           <td><em>tsai-nar</em></td>
+          <td><audio controls>
+            <source src="voice_recordings\zainaer.mp3" type="audio/mpeg">
+              </audio></td>
         </tr>
-        <tr>
+        <tr class="change">
           <td>To the left/right</td>
           <td>在左边/在右边</td>
           <td>zàizǔobiàn/zàiyòubiàn</td>
           <td><em>tsai-tsor-bian/tsai-yo-bian</em></td>
+          <td><audio controls>
+            <source src="voice_recordings\zuoyou.mp3" type="audio/mpeg">
+              </audio></td>
         </tr>
-        <tr>
+        <tr class="change">
           <td>Straight ahead</td>
           <td>在前面</td>
           <td>zàiqiánmiàn</td>
           <td><em>tsai-tsian-mian</em></td>
+          <td><audio controls>
+            <source src="voice_recordings\qianmian.mp3" type="audio/mpeg">
+              </audio></td>
         </tr>
-        <tr>
+        <tr class="change">
           <td>Where are you from?</td>
           <td>你是哪国人？</td>
           <td>nǐshìnǎguórén</td>
           <td><em>nee-shir-nar-guo-ren</em></td>
+          <td><audio controls>
+            <source src="voice_recordings\naguoren.mp3" type="audio/mpeg">
+              </audio></td>
         </tr>
-        <tr>
+        <tr class="change">
           <td>I am from...</td>
           <td>我是...</td>
           <td>wǒshì...</td>
           <td><em>wor-shir...</em></td>
+          <td><audio controls>
+            <source src="voice_recordings\woshi.mp3" type="audio/mpeg">
+              </audio></td>
         </tr>
-        <tr>
+        <tr class="change">
           <td>How much is this?</td>
           <td>这个多少钱？</td>
           <td>zhègedūoshǎoqián?</td>
           <td><em>jer-ge-door-shao-tsian?</em></td>
+          <td><audio controls>
+            <source src="voice_recordings\duoshaoqian.mp3" type="audio/mpeg">
+              </audio></td>
         </tr>
-        <tr>
+        <tr class="change">
           <td>This costs...</td>
           <td>...元</td>
           <td>...yuán</td>
           <td><em>...yuan</em></td>
+          <td><audio controls>
+            <source src="voice_recordings\yuan.mp3" type="audio/mpeg">
+              </audio></td>
         </tr>
-        <tr>
+        <tr class="change">
           <td>Table for ... please</td>
           <td>我们...位</td>
           <td>wǒmén...wèi</td>
           <td><em>wor-men...way</em></td>
+          <td><audio controls>
+            <source src="voice_recordings\womenwei.mp3" type="audio/mpeg">
+              </audio></td>
         </tr>
-        <tr>
+        <tr class="change">
           <td>Can I see the menu?</td>
           <td>来一个菜单</td>
           <td>láigecàidān</td>
           <td><em>lie-ge-tsai-dan</em></td>
+          <td><audio controls>
+            <source src="voice_recordings\caidan.mp3" type="audio/mpeg">
+              </audio></td>
         </tr>
-        <tr>
+        <tr class="change">
           <td>Can I get the bill please?</td>
           <td>可以买单</td>
           <td>kěyǐmǎidān</td>
           <td><em>ck-ee-my-dan</em></td>
+          <td><audio controls>
+            <source src="voice_recordings\maidan.mp3" type="audio/mpeg">
+              </audio></td>
         </tr>
       </table>
         </div> <!--closes this table -->
 
       <div>
-        <h3 class="display-5 text-center"> Speak like a local!</h2>
+        <h2 class="display-4"> Speak like a local!</h2>
       </div>
 
       <div class="table-responsive"> <!--contains this table-->
-        <table style="width:100%" class= "table mx-auto table-striped table-hover table-bordered">
-          <tr>
+        <table style="width:95%" class= "table mx-auto table-striped table-hover table-bordered">
+          <tr class="change">
             <td>All the best/Safe journey</td>
             <td>慢走</td>
             <td>mànzǒu</td>
             <td><em>man-zow</em></td>
+            <td><audio controls>
+              <source src="voice_recordings\manzou.mp3" type="audio/mpeg">
+                </audio></td>
           </tr>
-          <tr>
+          <tr class="change">
             <td>Have you eaten? (Affectionate greeting)</td>
             <td>吃饭了没有？</td>
             <td>chīfànleméiyǒu</td>
             <td><em>chir-fan-le-may-yo</em></td>
+            <td><audio controls>
+              <source src="voice_recordings\chifan.mp3" type="audio/mpeg">
+                </audio></td>
           </tr>
-          <tr>
+          <tr class="change">
             <td>How you doing/What's up?</td>
             <td>你干嘛？</td>
             <td>nǐgānmǎ</td>
             <td><em>nee-gan-mar</em></td>
+            <td><audio controls>
+              <source src="voice_recordings\ganma.mp3" type="audio/mpeg">
+                </audio></td>
           </tr>
-          <tr>
+          <tr class="change">
             <td>What are you on about?</td>
             <td>你说什么话呀？</td>
             <td>nǐshūoshénmehuàya</td>
             <td><em>nee-shor-shen-m-hua-yaa</em></td>
+            <td><audio controls>
+              <source src="voice_recordings\shenmehua.mp3" type="audio/mpeg">
+                </audio></td>
           </tr>
-          <tr>
+          <tr class="change">
             <td>Thank you for taking the trouble</td>
             <td>辛苦你</td>
             <td>xīnkǔnǐ</td>
             <td><em>tsin-koo-nee</em></td>
+            <td><audio controls>
+              <source src="voice_recordings\xinku.mp3" type="audio/mpeg">
+                </audio></td>
           </tr>
         </table>
           </div> <!--closes this table -->
 
         </div> <!--closes both tables-->
 
+        <hr> <!--hr adds a line between sections and margin space-->
 
 
+        <hr> <!--hr adds a line between sections and margin space-->
 
+        <div id="social-buttons" class="text-center">
 
+           <button class="btn btn-md btn-info btn-twitter">Twitter</button>
 
-  </div>
+           <button class="btn btn-md btn-primary btn-facebook">Facebook</button>
 
-  <footer class="container-fluid text-center">
-    <p>insert social media icon links here</p>
-</footer>
+           <button class="btn btn-md btn-danger btn-pinterest">Pinterest</button>
+
+       </div>
 
 </body>
