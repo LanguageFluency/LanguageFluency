@@ -43,12 +43,12 @@ body{
     margin-right: 0px;
     margin-left: 0px;
     color: #F6E8EA;
-    font-size: 20px;
+    font-size: 18px;
   }
 
 .change:hover{
   font-weight: bold;
-  font-size: 27px;
+  font-size: 26px;
 }
 
 h2{
@@ -68,9 +68,36 @@ hr {
   border-style: solid none;
   border-width: 4px 0;
   margin: 60px 30px;
+}
 
+.resources{
+    height: 140px;
+    weight: auto;
+    margin-bottom: 10px;
+}
+
+.marketing{
+  text-align: center;
+  color: #F6E8EA;
+}
+
+.link{
+  color: #F6E8EA;
 }
 
 #social-buttons{
   margin-bottom: 25px;
+}
+
+.btn-twitter {
+    background: #00acee;
+    border-color: #009ad5;
+}
+.btn-facebook {
+    background: #4868ac;
+    border-color: #314776;
+}
+.btn-pinterest {
+    background: #b62f26;
+    border-color: #b62f26;
 }
