@@ -1,0 +1,114 @@
+body{
+  background-color: #E4572E;
+}
+
+.nav{
+  margin-bottom: 70px;
+}
+
+.nav-item{
+  color: #E4572E;
+}
+
+a.nav-link:hover {
+  color: #E4572E;
+  font-weight: bold;
+}
+
+.jumbatron{
+  text-align: center;
+}
+
+.blockquote{
+  margin-top: 40px;
+  color: #264653;
+  padding: 0 25px;
+}
+
+.flag img {
+  border-radius: 20px;
+}
+
+.jumbatron h1{
+  margin-top: 30px;
+  margin-bottom: 30px;
+  font-family: 'Verdana'sans-serif;
+  font-size: 64px;
+  color: #264653;
+}
+
+.jumbatron p{
+  margin-bottom: 30px;
+  font-size: 20px;
+  }
+
+.boxed{
+  margin-top: 30px;
+  border: 1px solid #264653;
+  border-radius: 10px;
+}
+
+.table-responsive {
+    margin-top: 80px;
+    margin-bottom: 50px;
+    margin-right: 0px;
+    margin-left: 0px;
+    color: #264653;
+    font-size: 18px;
+  }
+
+.change:hover{
+  font-weight: bold;
+  font-size: 26px;
+}
+
+h2{
+  color: #264653;
+  text-align: center;
+}
+
+/*editing the horizontal line (hr) between sectios*/
+
+hr {
+  -moz-border-bottom-colors: none;
+  -moz-border-image: none;
+  -moz-border-left-colors: none;
+  -moz-border-right-colors: none;
+  -moz-border-top-colors: none;
+  border-color: #264653;
+  border-style: solid none;
+  border-width: 4px 0;
+  margin: 60px 30px;
+}
+
+.resources{
+    height: 140px;
+    weight: auto;
+    margin-bottom: 10px;
+}
+
+.marketing{
+  text-align: center;
+  color: #264653;
+}
+
+.link{
+  color: #264653;
+}
+
+#social-buttons{
+  margin-bottom: 25px;
+}
+
+.btn-twitter {
+    background: #00acee;
+    border-color: #009ad5;
+}
+.btn-facebook {
+    background: #4868ac;
+    border-color: #314776;
+}
+.btn-pinterest {
+    background: #b62f26;
+    border-color: #b62f26;
+}
