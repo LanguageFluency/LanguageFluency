@@ -1,6 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+	<!-- Bootstrap CSS -->
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+	<!-- linking CSS-->
+	<link rel="stylesheet" type="text/css "href="homepage.css">
 
 	<!-- Specifies the character set for the webpage -->
 	<meta charset="utf-8">
@@ -14,45 +19,104 @@
 	<!-- Title of the website page goes here -->
 	<title>An Introduction to Learning Languages</title>
 
+	<!-- jquery -->
+	<script
+  src="https://code.jquery.com/jquery-3.3.1.min.js"
+  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+  crossorigin="anonymous"></script>
+  <script src="js/bootstrap.min.js"></script>
 </head>
-	<body>
 
-<!-- Navigation Bar -->
-		<div class="navigation">
-			<ul>
-				<p>Home</p>
-				<p>Our Promise</p>
-				<p>Select A Language</p>
-				<p>Get in Touch</p>
-				<p>Meet the Team</p>
+<body>
+
+<!-- Navigation Bar dropdown -->
+			<nav class="navbar navbar-expand-lg navbar-light bg-light">
+			<a class="navbar-brand" href="#">Home</a>
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+			<span class="navbar-toggler-icon"></span>
+			</button>
+
+			<div class="collapse navbar-collapse" id="navbarSupportedContent">
+			<ul class="navbar-nav mr-auto">
+				<li class="nav-item active">
+					<a class="nav-link" href="#">Our Promise<span class="sr-only">(current)</span></a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#">Meet The Team</a>
+				</li>
+				<li class="nav-item dropdown">
+					<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+						Select A Language
+					</a>
+					<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+						<a class="dropdown-item" href="#">Chinese</a>
+						<a class="dropdown-item" href="#">German</a>
+						<a class="dropdown-item" href="#">Korean</a>
+						<a class="dropdown-item" href="#">Spanish</a>
+						<div class="dropdown-divider"></div>
+					</div>
+				</li>
 			</ul>
-		</div>
+
+			<!--Search button-->
+
+			<form class="form-inline my-2 my-lg-0">
+				<input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+				<button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+			</form>
+			</div>
+			</nav>
 
 <!--Home Page -->
 		<header class="intro">
-			<h1>Five-Minute Fluency</h1>
-			<h2>Bringing you 4 languages in under 5 minutes</h2>
-			<a href="Language_Selection"> <button>Select a Language</button></a>
+			<div class="jumbotron">
+			<div class="container">
+			  <h1 class="hometitle">Five Minute Fluency</h1>
+			  <p class="lead">Building a website that will allow users access the most common words/phrases in 4 different languages. A good way to start on a language or simply learn useful phrases for traveling.</p>
+			  <hr class="my-4">
+			  <p class="lead">
+			    <a class="btn btn-primary btn-lg" href="#" role="button">Select A Language</a>
+			  </p>
+			</div>
+			</div>
 		</header>
 
 <!--Our Promise -->
 		<div class="our_promise">
-			<h3>We Promise To</h3>
-			<p>Give you some language basics in 5 minutes or less. Brought to you by language enthusiasts</p>
+			<div class="jumbotron">
+				<div class="container">
+					<h3 id="Promise">We Promise To</h3>
+					<p>Give you some language basics in 5 minutes or less. Brought to you by language enthusiasts.</p>
+				</div>
+			</div>
 		</div>
 
 <!--Language Selection -->
-		<div class='Language_Selection'>
-			<ul>
-				<img src="http://i67.tinypic.com/29y1552.jpg" class="small" alt="Hola"></a>
-				<p>Ni Hao</p>
-				<img src="http://i67.tinypic.com/k3k6k7.jpg" class="small" alt="Cześć"></a>
-				<p>Yeoboseyo</p>
-			</ul>
+		<div class="row">
+		<div class="jumbotron">
+
+			<div class="column">
+				<img src="http://i67.tinypic.com/29y1552.jpg" class="img-circle" alt="Snow" style="width:20%; height:20%">
+			</div>
+
+			<div class="column">
+				<img src="http://i67.tinypic.com/k3k6k7.jpg" class="img-circle" alt="Forest" style="width:20%; height:20%">
+			</div>
+
+			<div class="column">
+				<img src="http://i68.tinypic.com/vz7eiu.jpg" class="img-circle" alt="Great Wall of China" style="width:20%; height:20%">
+			</div>
+
+			<div class="column">
+					<img src="http://i66.tinypic.com/206h9hd.jpg" class="img-circle" alt="Korea" style="width:20%; height:20%">
+			</div>
+
+		</div>
 		</div>
 
 <!-- Get in Touch -->
 		<div class="get_in_touch">
+		<div class="jumbotron">
 			<h2>Have We Missed Something?</h2>
 			<p>Let us know if we've missed something important. We would love your feedback!</p>
 			<form action="mailto:language.fluency.lf@gmail.com" method="post" enctype="text/plain">
@@ -68,9 +132,11 @@
 			  <input type="submit" value="Submit">
 			</form>
 		</div>
+		</div>
 
 <!--Meet the Team -->
 		<div class="meet_the_team">
+		<div class="jumbotron">
 			<h3>Meet the Team</h3>
 			<ul>
 				<p>Karolina</p>
@@ -79,15 +145,18 @@
 				<p>Rochelle</p>
 			</ul>
 		</div>
+		</div>
 
 <!--Follow us on-->
 		<div class="follow_us">
+		<div class="jumbotron">
 			<p>Follow us on</p>
 			<ul>
 				<a href="https://twitter.com/FluencyLanguage"> <button>Twitter</button></a>
 				<a href="https://www.facebook.com/Language-Fluency-369848350491369/"> <button>Facebook</button></a>
 				<a href="mailto:language.fluency.lf@gmail.com"> <button>Email</button></a>
 			</ul>
+	</div>
 	</div>
 
 
