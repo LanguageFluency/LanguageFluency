@@ -1,65 +1,68 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<!-- Bootstrap CSS -->
-	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-
-	<!-- linking CSS-->
-	<link rel="stylesheet" type="text/css "href="homepage.css">
 
 	<!-- Specifies the character set for the webpage -->
-	<meta charset="utf-8">
+  <meta charset="utf-8">
 
 	<!-- Meta viewport tag for responsive design -->
-	<meta name="viewport" content="width=device-width, inital-scale=1">
+  <meta name="viewport" content="width=device-width, inital-scale=1">
 
-	<!-- Description of the website -->
-	<meta name="description" content="An Introduction to Learning Languages">
+  <!-- Description of the website -->
+  <meta name="description" content="An Introduction to Learning Languages">
 
-	<!-- Title of the website page goes here -->
-	<title>An Introduction to Learning Languages</title>
+  <!-- Title of the website page goes here -->
+  <title>Lang-Whizz Chinese</title>
+
+	<!-- Shortcut icon -->
+  <link rel="shortcut icon" type="image/x-icon" href="images/logo_4.png" />
+
+	<!-- Link to Bootstrap -->
+  <link href='css/bootstrap.min.css' rel='stylesheet'>
+
+	<!-- linking CSS-->
+	<link rel="stylesheet" type="text/css "href="override_css/index.css">
 
 	<!-- jquery -->
-	<script
-  src="https://code.jquery.com/jquery-3.3.1.min.js"
-  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
-  crossorigin="anonymous"></script>
+	<script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
   <script src="js/bootstrap.min.js"></script>
+
 </head>
 
 <body>
 
-<!-- Navigation Bar dropdown -->
-			<nav class="navbar navbar-expand-lg navbar-light bg-light">
-			<a class="navbar-brand" href="#">Home</a>
-			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-			<span class="navbar-toggler-icon"></span>
-			</button>
-
-			<div class="collapse navbar-collapse" id="navbarSupportedContent">
-			<ul class="navbar-nav mr-auto">
-				<li class="nav-item active">
-					<a class="nav-link" href="#">Our Promise<span class="sr-only">(current)</span></a>
-				</li>
-				<li class="nav-item">
-					<a class="nav-link" href="#">Meet The Team</a>
-				</li>
-				<li class="nav-item dropdown">
-					<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-						Select A Language
-					</a>
-					<div class="dropdown-menu" aria-labelledby="navbarDropdown">
-						<a class="dropdown-item" href="#">Chinese</a>
-						<a class="dropdown-item" href="#">German</a>
-						<a class="dropdown-item" href="#">Korean</a>
-						<a class="dropdown-item" href="#">Spanish</a>
-						<div class="dropdown-divider"></div>
-					</div>
-				</li>
-			</ul>
-
+		<!-- Navigation Bar dropdown -->
+			<div class="navigation">
+				<ul class="nav navbar justify-content-end" style="background-color: #F6E8EA">
+					<li class="nav-item">
+							<a class="nav-item nav-link" href="#" role="button">Home</a>
+								</li>
+						<li class="nav-item">
+							<a class="nav-item nav-link" href="#" role="button">Our Promise</a>
+								</li>
+						<li class="nav-item dropdown">
+							<a class="nav-item nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+								Select A Language
+							</a>
+							<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+								<a class="dropdown-item" href="#">Chinese</a>
+								<a class="dropdown-item" href="#">Korean</a>
+								<a class="dropdown-item" href="#">Polish</a>
+								<a class="dropdown-item" href="#">Spanish</a>
+								<div class="dropdown-divider"></div>
+							</div>
+								</li>
+						<li class="nav-item">
+							<a class="nav-item nav-link" href="#" role="button">Meet The Team</a>
+								</li>
+						<li class="nav-item">
+							<a class="nav-item nav-link" href="#" role="button">Get in Touch<span class="sr-only">(current)</span></a>
+								</li>
+					</ul>
+			</div>
 			<!--Search button-->
 
+			<div class="nav justify-content-end">
 			<form class="form-inline my-2 my-lg-0">
 				<input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
 				<button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
@@ -92,23 +95,23 @@
 		</div>
 
 <!--Language Selection -->
-		<div class="row">
 		<div class="jumbotron">
+      <div class="row">
 
-			<div class="column">
-				<img src="http://i67.tinypic.com/29y1552.jpg" class="img-circle" alt="Snow" style="width:20%; height:20%">
+			<div class="country_photo col-sm-3">
+				<img src="http://i67.tinypic.com/29y1552.jpg" alt="#">
 			</div>
 
-			<div class="column">
-				<img src="http://i67.tinypic.com/k3k6k7.jpg" class="img-circle" alt="Forest" style="width:20%; height:20%">
+			<div class="country_photo col-sm-3">
+				<img src="http://i67.tinypic.com/k3k6k7.jpg" alt="Forest">
 			</div>
 
-			<div class="column">
-				<img src="http://i68.tinypic.com/vz7eiu.jpg" class="img-circle" alt="Great Wall of China" style="width:20%; height:20%">
+			<div class="country_photo col-sm-3">
+				<img src="http://i68.tinypic.com/vz7eiu.jpg" alt="Great Wall of China">
 			</div>
 
-			<div class="column">
-					<img src="http://i66.tinypic.com/206h9hd.jpg" class="img-circle" alt="Korea" style="width:20%; height:20%">
+			<div class="country_photo col-sm-3">
+					<img src="http://i66.tinypic.com/206h9hd.jpg" alt="Korea">
 			</div>
 
 		</div>
@@ -147,17 +150,17 @@
 		</div>
 		</div>
 
-<!--Follow us on-->
-		<div class="follow_us">
-		<div class="jumbotron">
-			<p>Follow us on</p>
-			<ul>
-				<a href="https://twitter.com/FluencyLanguage"> <button>Twitter</button></a>
-				<a href="https://www.facebook.com/Language-Fluency-369848350491369/"> <button>Facebook</button></a>
-				<a href="mailto:language.fluency.lf@gmail.com"> <button>Email</button></a>
-			</ul>
-	</div>
-	</div>
+<!--Social Media-->
+	 	<div class="social-buttons text-center">
+
+				 <a id="twitter" target="_blank" title="follow me on Twitter" href="https://twitter.com/FluencyLanguage"><img alt="follow me on twitter" src="https://c866088.ssl.cf3.rackcdn.com/assets/twitter40x40.png" border=0></a>
+
+				 <a id="facebook" target="_blank" title="follow me on facebook" href="https://www.facebook.com/Language-Fluency-369848350491369/"><img alt="follow me on facebook" src="https://c866088.ssl.cf3.rackcdn.com/assets/facebook40x40.png" border=0></a>
+
+				 <a id="pinterest" target="_blank" title="follow me on pinterest" href="https://www.pinterest.com/PLACEHOLDER"><img alt="follow me on pinterest" src="https://c866088.ssl.cf3.rackcdn.com/assets/pinterest40x40.png" border=0></a>
+
+		 </div>
+
 
 
 

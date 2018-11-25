@@ -1,0 +1,27 @@
+body{
+  background-color: #F6E8EA;
+}
+
+.nav-item{
+  color: #264653;
+}
+
+a.nav-link:hover {
+  color: #264653;
+  font-weight: bold;
+}
+
+.country_photo{
+  height: 300px;
+}
+
+.social-buttons{
+  margin-bottom: 25px;
+  background-color: #F6E8EA;
+}
+
+#facebook{
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-bottom: 25px;
+}

@@ -1,5 +1,5 @@
 body{
-  background-color: #FCCA46;
+  background-color: #EFBDEB;
 }
 
 .nav{
@@ -7,11 +7,11 @@ body{
 }
 
 .nav-item{
-  color: #FCCA46;
+  color: #EFBDEB;
 }
 
 a.nav-link:hover {
-  color: #FCCA46;
+  color: #EFBDEB;
   font-weight: bold;
 }
 
@@ -96,19 +96,12 @@ hr {
   color: #264653;
 }
 
-#social-buttons{
+.social-buttons{
   margin-bottom: 25px;
 }
 
-.btn-twitter {
-    background: #00acee;
-    border-color: #009ad5;
-}
-.btn-facebook {
-    background: #4868ac;
-    border-color: #314776;
-}
-.btn-pinterest {
-    background: #b62f26;
-    border-color: #b62f26;
+#facebook{
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-bottom: 25px;
 }
