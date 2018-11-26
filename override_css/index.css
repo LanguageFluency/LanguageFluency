@@ -6,15 +6,80 @@ body{
   color: #264653;
 }
 
-a.nav-link:hover {
+a.nav-link:hover{
   color: #264653;
   font-weight: bold;
+}
+
+.intro{
+  height: 100vh;
+  background-image: url("../images/land.jpg");
+  padding-top: 150px;
+}
+
+.jumbotron{
+  background-color: transparent;
+}
+
+.centre{
+  text-align: center;
 }
 
 .country_photo{
   height: 200px;
   width: 200px;
   overflow: hidden;
+}
+
+.hometitle{
+  font-size: 5rem;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 87.5%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #008CBA;
+}
+
+.poland {
+  background-color: #F6D8AE;
+}
+
+.spain{
+  background-color: #FFA630;
+}
+
+.china{
+  background-color: #92140C;
+}
+
+.korea{
+  background-color: #264653;
+}
+
+.country_photo:hover .overlay {
+  opacity: 0.95;
+}
+
+.texthover {
+  color: black;
+  font-size: 35px;
+  line-height: 200px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+  font-variant: small-caps;
 }
 
 .social-buttons{
