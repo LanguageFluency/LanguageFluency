@@ -1,5 +1,6 @@
 body{
-  background-color: #780116;
+  background-color: #92140C;
+  color: #ECAB97;
 }
 
 .nav{
@@ -7,7 +8,7 @@ body{
 }
 
 .nav-item{
-  color: #780116;
+  color: #92140C;
 }
 
 #logo {
@@ -17,7 +18,7 @@ body{
 }
 
 a.nav-link:hover {
-  color: #780116;
+  color: #92140C;
   font-weight: bold;
 }
 
@@ -27,7 +28,6 @@ a.nav-link:hover {
 
 .blockquote{
   margin-top: 40px;
-  color: #F6E8EA;
   padding: 0 25px;
 }
 
@@ -40,7 +40,6 @@ a.nav-link:hover {
   margin-bottom: 30px;
   font-family: 'Verdana'sans-serif;
   font-size: 64px;
-  color: #F6E8EA;
 }
 
 .jumbatron p{
@@ -50,7 +49,7 @@ a.nav-link:hover {
 
 .boxed{
   margin-top: 30px;
-  border: 1px solid #F6E8EA;
+  border: 1px solid #ECAB97;
   border-radius: 10px;
 }
 
@@ -59,9 +58,8 @@ a.nav-link:hover {
     margin-bottom: 50px;
     margin-right: 0px;
     margin-left: 0px;
-    color: #F6E8EA;
     font-size: 18px;
-  }
+}
 
 .change:hover{
   font-weight: bold;
@@ -69,7 +67,6 @@ a.nav-link:hover {
 }
 
 h2{
-  color: #F6E8EA;
   text-align: center;
 }
 
@@ -81,7 +78,7 @@ hr {
   -moz-border-left-colors: none;
   -moz-border-right-colors: none;
   -moz-border-top-colors: none;
-  border-color: #F6E8EA;
+  border-color: #ECAB97;
   border-style: solid none;
   border-width: 4px 0;
   margin: 60px 30px;
@@ -96,11 +93,10 @@ hr {
 
 .marketing{
   text-align: center;
-  color: #F6E8EA;
 }
 
 .link{
-  color: #F6E8EA;
+  color: #ECAB97;
 }
 
 .social-buttons{

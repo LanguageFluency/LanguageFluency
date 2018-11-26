@@ -12,7 +12,9 @@ a.nav-link:hover {
 }
 
 .country_photo{
-  height: 300px;
+  height: 200px;
+  width: 200px;
+  overflow: hidden;
 }
 
 .social-buttons{
