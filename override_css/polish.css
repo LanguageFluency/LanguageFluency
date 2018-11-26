@@ -1,6 +1,6 @@
 body{
-  background-color: #D16146;
-  color: #3B1F2B;
+  background-color: #F6D8AE;
+  color: #92140C;
 }
 
 .nav{
@@ -8,11 +8,11 @@ body{
 }
 
 .nav-item{
-  color: #D16146;
+  color: #F6D8AE;
 }
 
 a.nav-link:hover {
-  color: #D16146;
+  color: #F6D8AE;
   font-weight: bold;
 }
 
@@ -43,7 +43,7 @@ a.nav-link:hover {
 
 .boxed{
   margin-top: 30px;
-  border: 1px solid #3B1F2B;
+  border: 1px solid #92140C;
   border-radius: 10px;
 }
 
@@ -72,7 +72,7 @@ hr {
   -moz-border-left-colors: none;
   -moz-border-right-colors: none;
   -moz-border-top-colors: none;
-  border-color: #3B1F2B;
+  border-color: #92140C;
   border-style: solid none;
   border-width: 4px 0;
   margin: 60px 30px;
@@ -89,7 +89,7 @@ hr {
 }
 
 .link{
-  color: #3B1F2B;
+  color: #92140C;
 }
 
 .social-buttons{
