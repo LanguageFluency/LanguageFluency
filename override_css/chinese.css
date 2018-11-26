@@ -61,6 +61,10 @@ a.nav-link:hover {
     font-size: 18px;
 }
 
+.table-bordered td, .table-bordered th {
+    border: 1px solid #ECAB97;
+}
+
 .change:hover{
   font-weight: bold;
   font-size: 26px;
@@ -91,6 +95,11 @@ hr {
     border-style: none;
 }
 
+.img-thumbnail {
+    padding: 0;
+    background-color: #92140C;
+}
+
 .marketing{
   text-align: center;
 }
@@ -107,4 +116,8 @@ hr {
   margin-left: 20px;
   margin-right: 20px;
   margin-bottom: 25px;
+}
+
+.speach {
+  background-color: #ECAB97;
 }
