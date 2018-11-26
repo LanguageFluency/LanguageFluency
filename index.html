@@ -33,12 +33,12 @@
 
 		<!-- Navigation Bar dropdown -->
 			<div class="navigation">
-				<ul class="nav navbar justify-content-end" style="background-color: #F6E8EA">
+				<ul class="nav navbar justify-content-end">
 					<li class="nav-item">
 							<a class="nav-item nav-link" href="#" role="button">Home</a>
 								</li>
 						<li class="nav-item">
-							<a class="nav-item nav-link" href="#" role="button">Our Promise</a>
+							<a class="nav-item nav-link" href="#ourpromise" role="button">Our Promise</a>
 								</li>
 						<li class="nav-item dropdown">
 							<a class="nav-item nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -53,39 +53,32 @@
 							</div>
 								</li>
 						<li class="nav-item">
-							<a class="nav-item nav-link" href="#" role="button">Meet The Team</a>
+							<a class="nav-item nav-link" href="#meettheteam" role="button">Meet The Team</a>
 								</li>
 						<li class="nav-item">
-							<a class="nav-item nav-link" href="#" role="button">Get in Touch<span class="sr-only">(current)</span></a>
+							<a class="nav-item nav-link" href="#getintouch" role="button">Get in Touch<span class="sr-only">(current)</span></a>
 								</li>
 					</ul>
 			</div>
-			<!--Search button-->
 
-			<div class="nav justify-content-end">
-			<form class="form-inline my-2 my-lg-0">
-				<input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-				<button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-			</form>
-			</div>
-			</nav>
 
 <!--Home Page -->
-		<header class="intro">
+
+		<header class="intro centre">
 			<div class="jumbotron">
 			<div class="container">
-			  <h1 class="hometitle">Five Minute Fluency</h1>
+			  <h1 class="hometitle">Lang-Whizz!</h1>
 			  <p class="lead">Building a website that will allow users access the most common words/phrases in 4 different languages. A good way to start on a language or simply learn useful phrases for traveling.</p>
 			  <hr class="my-4">
 			  <p class="lead">
-			    <a class="btn btn-primary btn-lg" href="#" role="button">Select A Language</a>
+			    <a class="btn btn-primary btn-lg" href="#selectlanguage" role="button">Select A Language</a>
 			  </p>
 			</div>
 			</div>
 		</header>
 
 <!--Our Promise -->
-		<div class="our_promise">
+    <div id="ourpromise" class="our_promise centre">
 			<div class="jumbotron">
 				<div class="container">
 					<h3 id="Promise">We Promise To</h3>
@@ -95,30 +88,48 @@
 		</div>
 
 <!--Language Selection -->
-		<div class="jumbotron">
+		<div id="selectlanguage" class="centre">
+    <div class="jumbotron">
+
+      <div>
+        <h2>Select A Language</h2>
+      </div>
+
       <div class="row">
 
 			<div class="country_photo col-sm-3">
-				<img src="images/town.png" alt="town">
+				<a href="polish.html">
+          <img src="images/town.png" alt="town">
+        </a>
+        <p class="texthover overlay poland"> Poland</p>
 			</div>
 
 			<div class="country_photo col-sm-3">
 				<img src="images/picchu.png" alt="Picchu">
+        <p class="texthover overlay spain"> Spanish</p>
 			</div>
 
 			<div class="country_photo col-sm-3">
 				<img src="images/great_wall.png" alt="Great Wall of China">
+        <p class="texthover overlay china"> Chinese</p>
 			</div>
 
 			<div class="country_photo col-sm-3">
 					<img src="images/street.png" alt="Korean street">
+          <p class="texthover overlay korea"> Korean</p>
 			</div>
 
 		</div>
+    </div>
 		</div>
 
+<!--Babbel API-->
+  <div class="centre jumbotron">
+    <p> here goes the babbel API</p>
+  </div>
+
 <!-- Get in Touch -->
-		<div class="get_in_touch">
+		<div id="getintouch" class="get_in_touch centre">
 		<div class="jumbotron">
 			<h2>Have We Missed Something?</h2>
 			<p>Let us know if we've missed something important. We would love your feedback!</p>
@@ -138,7 +149,7 @@
 		</div>
 
 <!--Meet the Team -->
-		<div class="meet_the_team">
+		<div id="meettheteam" class="meet_the_team, centre">
 		<div class="jumbotron">
 			<h3>Meet the Team</h3>
 			<ul>
@@ -151,7 +162,7 @@
 		</div>
 
 <!--Social Media-->
-	 	<div class="social-buttons text-center">
+	 	<div class="social-buttons text-center, centre">
 
 				 <a id="twitter" target="_blank" title="follow me on Twitter" href="https://twitter.com/FluencyLanguage"><img alt="follow me on twitter" src="https://c866088.ssl.cf3.rackcdn.com/assets/twitter40x40.png" border=0></a>
 
