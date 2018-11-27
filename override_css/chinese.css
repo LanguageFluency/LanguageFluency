@@ -11,12 +11,6 @@ body{
   color: #92140C;
 }
 
-#logo {
-  float: left;
-  height: 60px;
-  z-index: 1;
-}
-
 a.nav-link:hover {
   color: #92140C;
   font-weight: bold;
@@ -63,6 +57,7 @@ a.nav-link:hover {
 
 .table-bordered td, .table-bordered th {
     border: 1px solid #ECAB97;
+    text-align: center;
 }
 
 .change:hover{
@@ -116,8 +111,4 @@ hr {
   margin-left: 20px;
   margin-right: 20px;
   margin-bottom: 25px;
-}
-
-.speach {
-  background-color: #ECAB97;
 }

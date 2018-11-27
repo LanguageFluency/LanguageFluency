@@ -29,6 +29,7 @@ a.nav-link:hover{
   height: 200px;
   width: 200px;
   overflow: hidden;
+  text-align: center;
 }
 
 .hometitle{
@@ -48,20 +49,20 @@ a.nav-link:hover{
   background-color: #008CBA;
 }
 
-.poland {
-  background-color: #F6D8AE;
-}
-
-.spain{
-  background-color: #FFA630;
-}
-
-.china{
+.chinese{
   background-color: #92140C;
 }
 
-.korea{
+.korean{
   background-color: #264653;
+}
+
+.polish{
+  background-color: #F6D8AE;
+}
+
+.spanish{
+  background-color: #FFA630;
 }
 
 .country_photo:hover .overlay {

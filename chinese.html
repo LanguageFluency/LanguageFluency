@@ -23,6 +23,7 @@
   <!-- Link to CSS page -->
   <link rel="stylesheet" type="text/css" href="override_css/chinese.css">
 
+  <!-- Link to Font Awesome -->
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
 
 </head>
@@ -31,22 +32,21 @@
 
           <!-- Navigation Bar -->
           		<div class="navigation" style="background-color: #ECAB97">
-                <img id="logo" src="images/logo_4.png" alt="logo">
           			<ul class="nav navbar justify-content-end">
                     <li class="nav-item">
-                      <a class="nav-item nav-link" href="#" role="button">Home</a>
+                      <a class="nav-item nav-link" href="index.html" role="button">Home</a>
                         </li>
                     <li class="nav-item">
-                      <a class="nav-item nav-link" href="#" role="button">Chinese</a>
+                      <a class="nav-item nav-link" href="chinese.html" role="button">Chinese</a>
                         </li>
                     <li class="nav-item">
                       <a class="nav-item nav-link" href="korean.html" role="button">Korean</a>
                         </li>
                     <li class="nav-item">
-                      <a class="nav-item nav-link" href="#" role="button">Polish</a>
+                      <a class="nav-item nav-link" href="polish.html" role="button">Polish</a>
                         </li>
                     <li class="nav-item">
-                      <a class="nav-item nav-link" href="#" role="button">Spanish</a>
+                      <a class="nav-item nav-link" href="spanish.html" role="button">Spanish</a>
                         </li>
                     <li class="nav-item">
                       <a class="nav-item nav-link" href="#" role="button">Get in Touch</a>
@@ -81,10 +81,6 @@
     </div> <!-- closes class=row -->
 
             <br>
-      <button type="button" class="btn btn-default" aria-label="Left Align">
-        <span class="glyphicon glyphicon-align-left" aria-hidden="true"></span>
-      </button>
-      <i class="fas fa-play-circle"></i>
 
       <div class="both-tables"> <!-- contains both tables -->
         <div class="table-responsive"> <!-- contains this table -->
@@ -102,184 +98,200 @@
               <td>你好！</td>
               <td>nǐhǎo</td>
               <td><em>nee-how</em></td>
-              <td><audio id="player" src="voice_recordings\nihao.mp3">
-              </audio>
-              <i class="fas fa-play-circle" onclick="document.getElementById('player').play()"></i>
-              <button type="button" class="btn btn-default btn-lg" onclick="document.getElementById('player').play()">
-                <i class="fas fa-play-circle"></i>
-              </button>
-            </td>
+              <td><audio id="nihao" src="voice_recordings\nihao.mp3">
+                    </audio>
+                    <i class="far fa-play-circle fa-2x" onclick="document.getElementById('nihao').play()"></i>
+              </td>
             </tr>
             <tr class="change">
               <td>Goodbye!</td>
               <td>再见！</td>
               <td>zaìjiàn</td>
               <td><em>zigh-ji-an</em></td>
-              <td><audio controls class="speach">
-                <source src="voice_recordings\zaijian.mp3" type="audio/mpeg">
-                  </audio></td>
+              <td><audio id="zaijian" src="voice_recordings\zaijian.mp3">
+                    </audio>
+                        <i class="far fa-play-circle fa-2x" onclick="document.getElementById('zaijian').play()"></i>
+              </td>
             </tr>
             <tr class="change">
               <td>How are you?</td>
               <td>你好吗？</td>
               <td>nǐhǎoma?</td>
               <td><em>nee-how-ma</em></td>
-              <td><audio controls>
-                <source src="voice_recordings\nihaoma.mp3" type="audio/mpeg">
-                  </audio></td>
+              <td><audio id="nihaoma" src="voice_recordings\nihaoma.mp3">
+                    </audio>
+                    <i class="far fa-play-circle fa-2x" onclick="document.getElementById('nihaoma').play()"></i>
+              </td>
             </tr>
             <tr class="change">
               <td>I'm well, thank you!</td>
               <td>很好，谢谢！</td>
               <td>hěnhǎo, xièxiè</td>
               <td><em>hun-how-syeh-syeh</em></td>
-              <td><audio controls>
-                <source src="voice_recordings\henhao.mp3" type="audio/mpeg">
-                  </audio></td>
+              <td><audio id="henhao" src="voice_recordings\henhao.mp3">
+                    </audio>
+                    <i class="far fa-play-circle fa-2x" onclick="document.getElementById('henhao').play()"></i>
+              </td>
             </tr>
             <tr class="change">
               <td>I don't understand</td>
               <td>听不懂</td>
               <td>tīngbùdǒng</td>
               <td><em>ting-bu-dong</em></td>
-              <td><audio controls>
-                <source src="voice_recordings\tingbudong.mp3" type="audio/mpeg">
-                  </audio></td>
+              <td><audio id="tingbudong" src="voice_recordings\tingbudong.mp3">
+                    </audio>
+                        <i class="far fa-play-circle fa-2x" onclick="document.getElementById('tingbudong').play()"></i>
+              </td>
             </tr>
             <tr class="change">
               <td>Please</td>
               <td>请</td>
               <td>qǐng</td>
               <td><em>tsing</em></td>
-              <td><audio controls>
-                <source src="voice_recordings\qing.mp3" type="audio/mpeg">
-                  </audio></td>
+              <td><audio id="qing" src="voice_recordings\qing.mp3">
+                    </audio>
+                        <i class="far fa-play-circle fa-2x" onclick="document.getElementById('qing').play()"></i>
+              </td>
             </tr>
             <tr class="change">
               <td>Thank you</td>
               <td>谢谢</td>
               <td>xièxiè</td>
               <td><em>syeh-syeh</em></td>
-              <td><audio controls>
-                <source src="voice_recordings\xiexie.mp3" type="audio/mpeg">
-                  </audio></td>
+              <td><audio id="xiexie" src="voice_recordings\xiexie.mp3">
+                    </audio>
+                        <i class="far fa-play-circle fa-2x" onclick="document.getElementById('xiexie').play()"></i>
+              </td>
             </tr>
             <tr class="change">
               <td>I'm sorry</td>
               <td>不好意思</td>
               <td>bùhǎoyīsì</td>
               <td><em>bu-how-ee-si</em></td>
-              <td><audio controls>
-                <source src="voice_recordings\buhaoyisi.mp3" type="audio/mpeg">
-                  </audio></td>
+              <td><audio id="buhaoyisi" src="voice_recordings\buhaoyisi.mp3">
+                    </audio>
+                        <i class="far fa-play-circle fa-2x" onclick="document.getElementById('buhaoyisi').play()"></i>
+              </td>
             </tr>
             <tr class="change">
               <td>Excuse me</td>
               <td>请问</td>
               <td>qǐngwèn</td>
               <td><em>tsing-wen</em></td>
-              <td><audio controls>
-                <source src="voice_recordings\qingwen.mp3" type="audio/mpeg">
-                  </audio></td>
+              <td><audio id="qingwen" src="voice_recordings\qingwen.mp3">
+                    </audio>
+                        <i class="far fa-play-circle fa-2x" onclick="document.getElementById('qingwen').play()"></i>
+              </td>
             </tr>
             <tr class="change">
               <td>Help!</td>
               <td>可以帮忙？</td>
               <td>kěyǐbàngmáng</td>
               <td><em>ck-ee-bung-mang</em></td>
-              <td><audio controls>
-                <source src="voice_recordings\bangmang.mp3" type="audio/mpeg">
-                  </audio></td>
+              <td><audio id="bangmang" src="voice_recordings\bangmang.mp3">
+                    </audio>
+                        <i class="far fa-play-circle fa-2x" onclick="document.getElementById('bangmang').play()"></i>
+              </td>
             </tr>
             <tr class="change">
               <td>Where is...?</td>
               <td>... 在哪儿？</td>
               <td>...zàinǎer?</td>
               <td><em>tsai-nar</em></td>
-              <td><audio controls>
-                <source src="voice_recordings\zainaer.mp3" type="audio/mpeg">
-                  </audio></td>
+              <td><audio id="zainaer" src="voice_recordings\zainaer.mp3">
+                    </audio>
+                        <i class="far fa-play-circle fa-2x" onclick="document.getElementById('zainaer').play()"></i>
+              </td>
             </tr>
             <tr class="change">
               <td>To the left/right</td>
               <td>在左边/在右边</td>
               <td>zàizǔobiàn/zàiyòubiàn</td>
               <td><em>tsai-tsor-bian/tsai-yo-bian</em></td>
-              <td><audio controls>
-                <source src="voice_recordings\zuoyou.mp3" type="audio/mpeg">
-                  </audio></td>
+              <<td><audio id="zuoyou" src="voice_recordings\zuoyou.mp3">
+                    </audio>
+                        <i class="far fa-play-circle fa-2x" onclick="document.getElementById('zuoyou').play()"></i>
+              </td>
             </tr>
             <tr class="change">
               <td>Straight ahead</td>
               <td>在前面</td>
               <td>zàiqiánmiàn</td>
               <td><em>tsai-tsian-mian</em></td>
-              <td><audio controls>
-                <source src="voice_recordings\qianmian.mp3" type="audio/mpeg">
-                  </audio></td>
+              <td><audio id="qianmian" src="voice_recordings\qianmian.mp3">
+                    </audio>
+                        <i class="far fa-play-circle fa-2x" onclick="document.getElementById('qianmian').play()"></i>
+              </td>
             </tr>
             <tr class="change">
               <td>Where are you from?</td>
               <td>你是哪国人？</td>
               <td>nǐshìnǎguórén</td>
               <td><em>nee-shir-nar-guo-ren</em></td>
-              <td><audio controls>
-                <source src="voice_recordings\naguoren.mp3" type="audio/mpeg">
-                  </audio></td>
+              <td><audio id="naguoren" src="voice_recordings\naguoren.mp3">
+                    </audio>
+                        <i class="far fa-play-circle fa-2x" onclick="document.getElementById('naguoren').play()"></i>
+              </td>
             </tr>
             <tr class="change">
               <td>I am from...</td>
               <td>我是...</td>
               <td>wǒshì...</td>
               <td><em>wor-shir...</em></td>
-              <td><audio controls>
-                <source src="voice_recordings\woshi.mp3" type="audio/mpeg">
-                  </audio></td>
+              <td><audio id="woshi" src="voice_recordings\woshi.mp3">
+                    </audio>
+                        <i class="far fa-play-circle fa-2x" onclick="document.getElementById('woshi').play()"></i>
+              </td>
             </tr>
             <tr class="change">
               <td>How much is this?</td>
               <td>这个多少钱？</td>
               <td>zhègedūoshǎoqián?</td>
               <td><em>jer-ge-door-shao-tsian?</em></td>
-              <td><audio controls>
-                <source src="voice_recordings\duoshaoqian.mp3" type="audio/mpeg">
-                  </audio></td>
+              <td><audio id="duoshaoqian" src="voice_recordings\duoshaoqian.mp3">
+                    </audio>
+                        <i class="far fa-play-circle fa-2x" onclick="document.getElementById('duoshaoqian').play()"></i>
+              </td>
             </tr>
             <tr class="change">
               <td>This costs...</td>
               <td>...元</td>
               <td>...yuán</td>
               <td><em>...yuan</em></td>
-              <td><audio controls>
-                <source src="voice_recordings\yuan.mp3" type="audio/mpeg">
-                  </audio></td>
+              <td><audio id="yuan" src="voice_recordings\yuan.mp3">
+                    </audio>
+                        <i class="far fa-play-circle fa-2x" onclick="document.getElementById('yuan').play()"></i>
+              </td>
             </tr>
             <tr class="change">
               <td>Table for ... please</td>
               <td>我们...位</td>
               <td>wǒmén...wèi</td>
               <td><em>wor-men...way</em></td>
-              <td><audio controls>
-                <source src="voice_recordings\womenwei.mp3" type="audio/mpeg">
-                  </audio></td>
+              <td><audio id="womenwei" src="voice_recordings\womenwei.mp3">
+                    </audio>
+                        <i class="far fa-play-circle fa-2x" onclick="document.getElementById('womenwei').play()"></i>
+              </td>
             </tr>
             <tr class="change">
               <td>Can I see the menu?</td>
               <td>来一个菜单</td>
               <td>láigecàidān</td>
               <td><em>lie-ge-tsai-dan</em></td>
-              <td><audio controls>
-                <source src="voice_recordings\caidan.mp3" type="audio/mpeg">
-                  </audio></td>
+              <td><audio id="caidan" src="voice_recordings\caidan.mp3">
+                    </audio>
+                        <i class="far fa-play-circle fa-2x" onclick="document.getElementById('caidan').play()"></i>
+              </td>
             </tr>
             <tr class="change">
               <td>Can I get the bill please?</td>
               <td>可以买单</td>
               <td>kěyǐmǎidān</td>
               <td><em>ck-ee-my-dan</em></td>
-              <td><audio controls>
-                <source src="voice_recordings\maidan.mp3" type="audio/mpeg">
-                  </audio></td>
+              <td><audio id="maidan" src="voice_recordings\maidan.mp3">
+                    </audio>
+                        <i class="far fa-play-circle fa-2x" onclick="document.getElementById('maidan').play()"></i>
+              </td>
             </tr>
           </table>
         </div> <!--closes this table -->
@@ -295,45 +307,50 @@
                 <td>慢走</td>
                 <td>mànzǒu</td>
                 <td><em>man-zow</em></td>
-                <td><audio controls>
-                  <source src="voice_recordings\manzou.mp3" type="audio/mpeg">
-                    </audio></td>
+                <<td><audio id="manzou" src="voice_recordings\manzou.mp3">
+                      </audio>
+                          <i class="far fa-play-circle fa-2x" onclick="document.getElementById('manzou').play()"></i>
+                </td>
               </tr>
               <tr class="change">
                 <td>Have you eaten? (Affectionate greeting)</td>
                 <td>吃饭了没有？</td>
                 <td>chīfànleméiyǒu</td>
                 <td><em>chir-fan-le-may-yo</em></td>
-                <td><audio controls>
-                  <source src="voice_recordings\chifan.mp3" type="audio/mpeg">
-                    </audio></td>
+                <td><audio id="chifan" src="voice_recordings\chifan.mp3">
+                      </audio>
+                          <i class="far fa-play-circle fa-2x" onclick="document.getElementById('chifan').play()"></i>
+                </td>
               </tr>
               <tr class="change">
                 <td>How you doing/What's up?</td>
                 <td>你干嘛？</td>
                 <td>nǐgānmǎ</td>
                 <td><em>nee-gan-mar</em></td>
-                <td><audio controls>
-                  <source src="voice_recordings\ganma.mp3" type="audio/mpeg">
-                    </audio></td>
+                <td><audio id="ganma" src="voice_recordings\ganma.mp3">
+                      </audio>
+                          <i class="far fa-play-circle fa-2x" onclick="document.getElementById('ganma').play()"></i>
+                </td>
               </tr>
               <tr class="change">
                 <td>What are you on about?</td>
                 <td>你说什么话呀？</td>
                 <td>nǐshūoshénmehuàya</td>
                 <td><em>nee-shor-shen-m-hua-yaa</em></td>
-                <td><audio controls>
-                  <source src="voice_recordings\shenmehua.mp3" type="audio/mpeg">
-                    </audio></td>
+                <td><audio id="shenmehua" src="voice_recordings\shenmehua.mp3">
+                      </audio>
+                          <i class="far fa-play-circle fa-2x" onclick="document.getElementById('shenmehua').play()"></i>
+                </td>
               </tr>
               <tr class="change">
                 <td>Thank you for taking the trouble</td>
                 <td>辛苦你</td>
                 <td>xīnkǔnǐ</td>
                 <td><em>tsin-koo-nee</em></td>
-                <td><audio controls>
-                  <source src="voice_recordings\xinku.mp3" type="audio/mpeg">
-                    </audio></td>
+                <td><audio id="xinku" src="voice_recordings\xinku.mp3">
+                      </audio>
+                          <i class="far fa-play-circle fa-2x" onclick="document.getElementById('xinku').play()"></i>
+                </td>
               </tr>
             </table>
           </div> <!--closes this table -->

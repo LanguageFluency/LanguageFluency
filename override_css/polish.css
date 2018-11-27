@@ -55,6 +55,11 @@ a.nav-link:hover {
     font-size: 18px;
   }
 
+.table-bordered td, .table-bordered th {
+    border: 1px solid #92140C;
+    text-align: center;
+}
+
 .change:hover{
   font-weight: bold;
   font-size: 26px;
@@ -82,6 +87,12 @@ hr {
     height: 140px;
     weight: auto;
     margin-bottom: 10px;
+    border-style: none;
+}
+
+.img-thumbnail {
+    padding: 0;
+    background-color: #F6D8AE;
 }
 
 .marketing{
