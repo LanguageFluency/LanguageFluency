@@ -52,7 +52,7 @@
               <a class="nav-item nav-link" href="spanish.html" role="button">Spanish</a>
                 </li>
             <li class="nav-item">
-              <a class="nav-item nav-link" href="#" role="button">Get in Touch</a>
+              <a class="nav-item nav-link" href="index.html#getintouch" role="button">Get in Touch<span class="sr-only">(current)</span></a>
                 </li>
           </ul>
         </div>
@@ -99,9 +99,9 @@
             <td>Hello!</td>
             <td>안녕하세요!</td>
             <td><em>annyeonghaseyo</em></td>
-            <td><audio id="hello" src="voice_recordings\korean\hello.mp3">
+            <td><audio id="hello" src="../voice_recordings\korean\hello.mp3">
                   </audio>
-                  <i class="far fa-play-circle fa-2x" onclick="document.getElementById('hello').()"></i>
+                  <i class="far fa-play-circle fa-2x" onclick="document.getElementById('hello').play()"></i>
             </td>
           </tr>
           <tr class="change">
@@ -110,7 +110,7 @@
             <td><em>annyeonghi gasipsio</em></td>
             <td><audio id="goodbye" src="voice_recordings\korean\goodbye.mp3">
             </audio>
-                  <i class="far fa-play-circle fa-2x" onclick="document.getElementById('goodbye').()"></i>
+                  <i class="far fa-play-circle fa-2x" onclick="document.getElementById('goodbye').play()"></i>
             </td>
           </tr>
           <tr class="change">
@@ -119,7 +119,7 @@
             <td><em>jal jinaesyeosseoyo</em></td>
             <td><audio id="how-are-you" src="voice_recordings\korean\how-are-you.mp3">
                   </audio>
-                  <i class="far fa-play-circle fa-2x" onclick="document.getElementById('how-are-you').()"></i>
+                  <i class="far fa-play-circle fa-2x" onclick="document.getElementById('how-are-you').play()"></i>
             </td>
           </tr>
           <tr class="change">
@@ -128,7 +128,7 @@
             <td><em>jal isseumnida. kamsahamnida</em></td>
             <td><audio id="well-thank-you" src="voice_recordings\korean\well-thank-you.mp3">
                   </audio>
-                  <i class="far fa-play-circle fa-2x" onclick="document.getElementById('well-thank-you').()"></i>
+                  <i class="far fa-play-circle fa-2x" onclick="document.getElementById('well-thank-you').play()"></i>
             </td>
           </tr>
           <tr class="change">
@@ -137,7 +137,7 @@
             <td><em>mot aradeureotseumnida</em></td>
             <td><audio id="understand" src="voice_recordings\korean\understand.mp3">
                   </audio>
-                  <i class="far fa-play-circle fa-2x" onclick="document.getElementById('understand').()"></i>
+                  <i class="far fa-play-circle fa-2x" onclick="document.getElementById('understand').play()"></i>
             </td>
           </tr>
           <tr class="change">
@@ -146,7 +146,7 @@
             <td><em>jusipsio</em></td>
             <td><audio id="please" src="voice_recordings\korean\please.mp3">
                   </audio>
-                  <i class="far fa-play-circle fa-2x" onclick="document.getElementById('please').()"></i>
+                  <i class="far fa-play-circle fa-2x" onclick="document.getElementById('please').play()"></i>
             </td>
           </tr>
           <tr class="change">
@@ -155,7 +155,7 @@
             <td><em>gamsahamnida</em></td>
             <td><audio id="thank-you" src="voice_recordings\korean\thank-you.mp3">
                   </audio>
-                  <i class="far fa-play-circle fa-2x" onclick="document.getElementById('thank-you').()"></i>
+                  <i class="far fa-play-circle fa-2x" onclick="document.getElementById('thank-you').play()"></i>
             </td>
           </tr>
           <tr class="change">
@@ -164,7 +164,7 @@
             <td><em>joesonghamnida</em></td>
             <td><audio id="sorry" src="voice_recordings\korean\sorry.mp3">
                   </audio>
-                  <i class="far fa-play-circle fa-2x" onclick="document.getElementById('sorry').()"></i>
+                  <i class="far fa-play-circle fa-2x" onclick="document.getElementById('sorry').play()"></i>
             </td>
           </tr>
           <tr class="change">
@@ -173,7 +173,7 @@
             <td><em>sillyehamnida</em></td>
             <td><audio id="excuse-me" src="voice_recordings\korean\excuse-me.mp3">
                   </audio>
-                  <i class="far fa-play-circle fa-2x" onclick="document.getElementById('excuse-me').()"></i>
+                  <i class="far fa-play-circle fa-2x" onclick="document.getElementById('excuse-me').play()"></i>
             </td>
           </tr>
           <tr class="change">
@@ -182,14 +182,17 @@
             <td><em>dowajusigesseoyo</em></td>
             <td><audio id="help" src="voice_recordings\korean\help.mp3">
                   </audio>
-                  <i class="far fa-play-circle fa-2x" onclick="document.getElementById('help').()"></i>
+                  <i class="far fa-play-circle fa-2x" onclick="document.getElementById('help').play()"></i>
             </td>
           </tr>
           <tr class="change">
             <td>Where is...?</td>
             <td>...는 어디 입니까? </td>
             <td><em>...nun odi imnikka?</em></td>
-            <td></td>
+            <td><audio id="where-is" src="voice_recordings\korean\where-is.mp3">
+                  </audio>
+                  <i class="far fa-play-circle fa-2x" onclick="document.getElementById('where-is').play()"></i>
+            </td>
           </tr>
           <tr class="change">
             <td>To the left/right</td>
@@ -197,7 +200,7 @@
             <td><em>wen-jjok / orun-jjok</em></td>
             <td><audio id="hello" src="voice_recordings\korean\left-right.mp3">
                   </audio>
-                  <i class="far fa-play-circle fa-2x" onclick="document.getElementById('left-right').()"></i>
+                  <i class="far fa-play-circle fa-2x" onclick="document.getElementById('left-right').play()"></i>
             </td>
           </tr>
           <tr class="change">
@@ -206,7 +209,7 @@
             <td><em>Ddokparo ga-jusaeyo</em></td>
             <td><audio id="straight" src="voice_recordings\korean\straight.mp3">
                   </audio>
-                  <i class="far fa-play-circle fa-2x" onclick="document.getElementById('straight').()"></i>
+                  <i class="far fa-play-circle fa-2x" onclick="document.getElementById('straight').play()"></i>
             </td>
           </tr>
           <tr class="change">
@@ -215,7 +218,7 @@
             <td><em>uhdichoolshin idanika</em></td>
             <td><audio id="where-from" src="voice_recordings\korean\where-from.mp3">
                   </audio>
-                  <i class="far fa-play-circle fa-2x" onclick="document.getElementById('where-from').()"></i>
+                  <i class="far fa-play-circle fa-2x" onclick="document.getElementById('where-from').play()"></i>
             </td>
           </tr>
           <tr class="change">
@@ -224,7 +227,7 @@
             <td><em>...esuh watsuyo</em></td>
             <td><audio id="i-am-from" src="voice_recordings\korean\i-am-from.mp3">
                   </audio>
-                  <i class="far fa-play-circle fa-2x" onclick="document.getElementById('i-am-from').()"></i>
+                  <i class="far fa-play-circle fa-2x" onclick="document.getElementById('i-am-from').play()"></i>
             </td>
           </tr>
           <tr class="change">
@@ -233,7 +236,7 @@
             <td><em>eolmaimnikka<em></td>
               <td><audio id="how-much" src="voice_recordings\korean\how-much.mp3">
                     </audio>
-                    <i class="far fa-play-circle fa-2x" onclick="document.getElementById('how-much').()"></i>
+                    <i class="far fa-play-circle fa-2x" onclick="document.getElementById('how-much').play()"></i>
               </td>
           </tr>
           <tr class="change">
@@ -242,7 +245,7 @@
             <td><em>i biyong</em></td>
             <td><audio id="this-costs" src="voice_recordings\korean\this-costs.mp3">
                   </audio>
-                  <i class="far fa-play-circle fa-2x" onclick="document.getElementById('this-costs').()"></i>
+                  <i class="far fa-play-circle fa-2x" onclick="document.getElementById('this-costs').play()"></i>
             </td>
           </tr>
           <tr class="change">
@@ -251,7 +254,7 @@
             <td><em>emyeong jari isseoyo?</em></td>
             <td><audio id="table" src="voice_recordings\korean\table.mp3">
                   </audio>
-                  <i class="far fa-play-circle fa-2x" onclick="document.getElementById('table').()"></i>
+                  <i class="far fa-play-circle fa-2x" onclick="document.getElementById('table').play()"></i>
             </td>
           </tr>
           <tr class="change">
@@ -260,14 +263,17 @@
             <td><em>Mehnyu juseyo</em></td>
             <td><audio id="menu" src="voice_recordings\korean\menu.mp3">
                   </audio>
-                  <i class="far fa-play-circle fa-2x" onclick="document.getElementById('menu').()"></i>
+                  <i class="far fa-play-circle fa-2x" onclick="document.getElementById('menu').play()"></i>
             </td>
           </tr>
           <tr class="change">
             <td>Can I get the bill please?</td>
             <td>계산서 좀 주세요</td>
             <td><em>gesan suhjom joodashi</em></td>
-            <td></td>
+            <td><audio id="bill" src="voice_recordings\korean\bill.mp3">
+                  </audio>
+                  <i class="far fa-play-circle fa-2x" onclick="document.getElementById('bill').play()"></i>
+            </td>
           </tr>
         </table>
           </div> <!--closes this table -->
@@ -284,7 +290,7 @@
               <td><em>pal-bang-mi-in</em></td>
               <td><audio id="jack" src="voice_recordings\korean\jack.mp3">
                     </audio>
-                    <i class="far fa-play-circle fa-2x" onclick="document.getElementById('jack').()"></i>
+                    <i class="far fa-play-circle fa-2x" onclick="document.getElementById('jack').play()"></i>
               </td>
             </tr>
             <tr class="change">
@@ -293,7 +299,7 @@
               <td><em>ma-eum-eul meok-da</em></td>
               <td><audio id="mind" src="voice_recordings\korean\mind.mp3">
                     </audio>
-                    <i class="far fa-play-circle fa-2x" onclick="document.getElementById('mind').()"></i>
+                    <i class="far fa-play-circle fa-2x" onclick="document.getElementById('mind').play()"></i>
               </td>
             </tr>
             <tr class="change">
@@ -302,7 +308,7 @@
               <td><em>nam-ui ddeok-i keo bo-in-da</em></td>
               <td><audio id="grass" src="voice_recordings\korean\grass.mp3">
                     </audio>
-                    <i class="far fa-play-circle fa-2x" onclick="document.getElementById('grass').()"></i>
+                    <i class="far fa-play-circle fa-2x" onclick="document.getElementById('grass').play()"></i>
               </td>
             </tr>
             <tr class="change">
@@ -311,7 +317,7 @@
               <td><em>hoel</em></td>
               <td><audio id="cant-believe" src="voice_recordings\korean\cant-believe.mp3">
                     </audio>
-                    <i class="far fa-play-circle fa-2x" onclick="document.getElementById('cant-believe').()"></i>
+                    <i class="far fa-play-circle fa-2x" onclick="document.getElementById('cant-believe').play()"></i>
               </td>
             </tr>
           </table>

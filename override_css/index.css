@@ -8,6 +8,19 @@
   color: #264653;
 }
 
+.navbar{
+  width: 100%;
+  position: fixed;
+  margin: 0 auto;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
+  z-index: 999;
+  background-image: url("../images/land.jpg");
+}
+
+
 a.nav-link:hover{
   color: #264653;
   font-weight: bold;
@@ -76,7 +89,7 @@ p.lead .btn:hover {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-color: #FFA630;
+  background-color: #F6D8AE;
 }
 
 .container_promise{
@@ -200,7 +213,7 @@ h3#Promise {
 /* ------ Meet the Team ------ */
 
 .team_block {
-  background-color: #B7C9DB;
+  background-color: #FFE4E1;
   height: 40em;
 }
 
