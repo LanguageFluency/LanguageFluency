@@ -33,6 +33,8 @@
   <!-- link to Google Fonts -->
   <link href="https://fonts.googleapis.com/css?family=Permanent+Marker" rel="stylesheet">
 
+  <!-- CSS animations -->
+  <link rel="stylesheet" href="css3-animate-it-master/css/animations.css">
 </head>
 
 <body>
@@ -84,10 +86,15 @@
 
 <!--Our Promise -->
     <div id="ourpromise" class="our_promise centre">
-
-      <div class="container_promise">
+      <div class="container_promise animatedParent">
 					<h3 id="Promise">We Promise To</h3>
 					<p>We'll give you the language basics for four different languages in 5 minutes or less! <br> Brought to you by Code First: Girls language enthusiasts.</p>
+          <div class="flags_container">
+            <img src="images/china.png" alt="chinese flag" class="flagimg animated fadeInUp delay-250">
+            <img src="images/south-korea.png" alt="south korean flag" class="flagimg animated fadeInUp delay-250">
+            <img src="images/poland.png" alt="polish flag" class="flagimg animated fadeInUp delay-250">
+            <img src="images/spain.png" alt="spanish flag" class="flagimg animated fadeInUp delay-250">
+          </div>
           <div class="arrow"></div>
         </div>
       </div>
@@ -98,34 +105,34 @@
 
 <!--Language Selection -->
   <div class="container_fluid">
-    <div class="selectlanguage">
+    <div class="selectlanguage animatedParent">
       <div id="selectlanguage" class="centre">
         <h3>Select A Language</h3>
       </div>
 
     <div class="row">
-			<div class="country_photo col-sm-3">
+			<div class="country_photo col-sm-3 animated growIn delay-1250">
 			   <a href="chinese.html" role="button">
         	 <img src="images/great_wall.png" alt="Great Wall of China">
               <p class="texthover overlay chinese">Chinese</p>
           </a>
 			</div>
 
-			<div class="country_photo col-sm-3">
+			<div class="country_photo col-sm-3 animated growIn delay-1250">
         <a href="korean.html" role="button">
 					<img src="images/street.png" alt="Korean street">
             <p class="texthover overlay korean">Korean</p>
           </a>
 			</div>
 
-      <div class="country_photo col-sm-3">
+      <div class="country_photo col-sm-3 animated growIn delay-1250">
         <a href="spanish.html" role="button">
          <img src="images/picchu.png" alt="Picchu">
           <p class="texthover overlay spanish">Spanish</p>
         </a>
       </div>
 
-      <div class="country_photo col-sm-3">
+      <div class="country_photo col-sm-3 animated growIn delay-1250">
         <a href="polish.html" role="button">
           <img src="images/town.png" alt="town">
             <p class="texthover overlay polish">Polish</p>
@@ -142,23 +149,23 @@
 
 <!--Meet the Team -->
 
-    <div class="container_fluid team_block">
+    <div class="container_fluid team_block animatedParent" data-sequence="500">
       <div id="meettheteam" class="row centre">
         <div class="col-sm-12 flex_container">
           <h3 class="meettheteam">Meet the Team</h3>
 
           <div class="bios">
-            <div class="team_container alice">
-                <p class="info"><span class="aliceinfo"><strong>Alice</strong> Lorem ipsum dolor sit amet.</span></p>
+            <div class="team_container alice animated flipInY delay-1000" data-id="1">
+                <p class="info"><span class="aliceinfo"><strong>Alice</strong>Chinese food addict.</span></p>
             </div>
-            <div class="team_container rochelle">
-                <p class="info rochelleinfo"><strong>Rochelle</strong> Lorem ipsum dolor sit amet. </p>
+            <div class="team_container rochelle animated flipInY delay-1000" data-id="2">
+                <p class="info rochelleinfo"><strong>Rochelle</strong>Pie making enthusiast. </p>
             </div>
-            <div class="team_container karolina">
-                <p class="info karolinainfo"><strong>Karolina</strong>Lorem ipsum dolor sit amet. </p>
+            <div class="team_container karolina animated flipInY delay-1000" data-id="3">
+                <p class="info karolinainfo"><strong>Karolina</strong>Languages and tech lover. </p>
             </div>
-            <div class="team_container safiya">
-                <p class="info safiyainfo"><strong>Safiya</strong>Lorem ipsum dolor sit amet. </p>
+            <div class="team_container safiya animated flipInY delay-1000" data-id="4">
+                <p class="info safiyainfo"><strong>Safiya</strong>Foreign film fanatic. </p>
             </div>
           </div>
 
@@ -200,5 +207,6 @@
 		</div>
 </div>
 
+<script type="text/javascript" src="css3-animate-it-master/js/css3-animate-it.js"></script>
 	</body>
 </html>
