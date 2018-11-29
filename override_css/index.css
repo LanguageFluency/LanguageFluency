@@ -69,25 +69,35 @@ p.lead .btn:hover {
 
 /* ------- Our Promise ---------- */
 
-.container_promise {
+.our_promise {
   width: 100%;
-  height: 25em;
+  height: 40em;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  background-color: #FFA630;
+}
+
+.container_promise{
+  width: 92.5%;
+  height: 32em;
+  padding: 10px;
+  border: 3px dashed #92140C;
 }
 
 h3#Promise {
-  font-size: 3rem;
-  margin-bottom: 10px;
-  font-weight: bold;
+  font-size: 4rem;
+  margin-top: 80px;
+  margin-bottom: 40px;
+  font-family: 'Permanent Marker', fantasy;
   letter-spacing: 1px;
   color: #92140C;
 }
 
 .container_promise p {
   font-size: 1.5rem;
+  margin-bottom: 40px;
 }
 
 .arrow {
@@ -96,14 +106,15 @@ h3#Promise {
   border-top: 10px solid #92140C;
   border-left: 10px solid #92140C;
   transform: rotate(225deg);
-  margin: 0 auto 20px auto;
+  margin: 20px auto 20px auto;
 }
 
 /* ------- Select a language ------------*/
 
 .selectlanguage {
   width: 100%;
-  height: 30em;
+  height: 40em;
+  background-color: #B7C9DB;
 }
 
 #selectlanguage {
@@ -111,20 +122,26 @@ h3#Promise {
   margin-bottom: 50px;
 }
 #selectlanguage h3 {
-    font-size: 3rem;
+  font-size: 4rem;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  font-family: 'Permanent Marker', fantasy;
+  color: #264653;
 }
 
 .row {
   margin: 0;
 }
 
-/* Photos
-*/
+/* Photos*/
 .country_photo{
   height: 200px;
   width: 200px;
   overflow: hidden;
   text-align: center;
+  font-size: 2rem;
+  font-family:'Permanent Marker', fantasy;
+  color: #264653;
 }
 
 .overlay {
@@ -183,7 +200,7 @@ h3#Promise {
 /* ------ Meet the Team ------ */
 
 .team_block {
-  background-color: white;
+  background-color: #B7C9DB;
   height: 40em;
 }
 
@@ -192,11 +209,13 @@ h3#Promise {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 40em;
+  height: 38em;
 }
 
 .meettheteam {
-  font-size: 3rem;
+  font-size: 4rem;
+  font-family: 'Permanent Marker', fantasy;
+  color: #264653;
   margin-bottom: 60px;
   margin-top: -30px;
 }
@@ -211,6 +230,7 @@ h3#Promise {
 .team_container {
   width: 240px;
   height: 300px;
+  margin-bottom: 45px;
   background-color: steelblue;
   display: inline-block;
   position: relative;
@@ -298,13 +318,18 @@ p.info {
 
 
 /* ------ Footer with Social ----- */
+.footer{
+  background-color: #F6D8AE;
+  margin: 0 0;
+}
 
 #getintouch {
+  height: 40em;
   width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-bottom: 50px;
+  margin-bottom: 0px;
 }
 
 .missed_something {
@@ -312,13 +337,22 @@ p.info {
 }
 
 .missed_something h2 {
-  font-size: 3rem;
+  font-size: 3.5rem;
+  font-family:'Permanent Marker', fantasy;
+}
+
+.missed_something p{
+  margin-top: 20px;
+  margin-bottom: 30px;
+  font-size: 20px;
+  font-weight: bold;
 }
 
 .form_container {
   width: 400px;
   margin: 0 auto;
   padding-top: 90px;
+  text-align: left;
 }
 
 .input_field, .submit {
@@ -342,7 +376,8 @@ p.info {
   color: white;
   border: none;
   font-weight: bold;
-  padding: 20px 0;
+  padding: 15px 0;
+  margin-bottom: 25px;
 }
 
 .submit:hover {
