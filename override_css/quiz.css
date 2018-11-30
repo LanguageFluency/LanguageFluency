@@ -1,0 +1,139 @@
+body{
+  background-color: #F6D8AE;
+  color: #264653;
+}
+
+.nav{
+  margin-bottom: 70px;
+}
+
+.nav-item{
+  color: #F6D8AE;
+}
+
+a.nav-link:hover {
+  color: #F6D8AE;
+  font-weight: bold;
+}
+
+.jumbatron{
+  text-align: center;
+  height: 40rem;
+}
+
+.blockquote{
+  margin-top: 40px;
+  padding: 0 25px;
+}
+
+.jumbatron h1{
+  margin-top: 30px;
+  margin-bottom: 40px;
+  font-family: 'Permanent Marker', cursive;
+  font-size: 64px;
+}
+
+.flagimg {
+  width: 200px;
+  height: 200px;
+  position: relative;
+  top: -30px;
+  margin-right: 10px;
+}
+
+.arrow {
+  width: 30px;
+  height: 30px;
+  border-top: 6px solid #264653;
+  border-left: 6px solid #264653;
+  transform: rotate(225deg);
+  margin: 0 auto 20px auto;
+}
+
+
+/* Quiz */
+
+ul {
+    list-style: none;
+}
+li {
+    font-family: sans-serif;
+    color: #264653;
+    font-size: 2em;
+}
+input[type=radio] {
+    border: 0px;
+    width: 20px;
+    height: 2em;
+}
+
+/* Quiz Classes */
+.main-quiz{
+  height: 38rem;
+  width: 100%;
+
+}
+
+ .quizContainer {
+    height: 38rem;
+    width: 75%;
+    position: relative;
+    padding: 0;
+}
+.nextButton {
+    text-align: center;
+    background-color: #F6D8AE;
+    border: none;
+    padding: 20px;
+    margin-top: 30px;
+}
+
+.question {
+    font-family: sans-serif;
+    font-size: 1.5rem;
+    font-weight: bold;
+    width: 90%;
+    height: auto;
+    margin: auto;
+    border-radius: 6px;
+    text-align: center;
+}
+.quizMessage {
+    background-color: peachpuff;
+    border-radius: 6px;
+    width: 30%;
+    margin: auto;
+    text-align: center;
+    padding: 2px;
+    font-family:'Rokkitt', serif;
+    color: red;
+}
+.choiceList {
+    font-family: sans-serif;
+    color: #264653;
+    text-align: center;
+}
+.result {
+    width: 30%;
+    height: auto;
+    border-radius: 6px;
+    background-color: linen;
+    margin: auto;
+    text-align: center;
+    font-family:'Rokkitt', serif;
+}
+/* End of Quiz Classes */
+
+
+/* Social Buttons */
+
+.social-buttons{
+  margin-top: 30px;
+  margin-bottom: 25px;
+}
+
+#facebook{
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-bottom: 25px;
+}
