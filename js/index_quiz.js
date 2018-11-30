@@ -1,29 +1,23 @@
-<a href="index.html" id="getintouch">Get In Touch</a>
-
-$('#getintouch').click(function(){
-$(document).scrollDown(100)
-
-
 var questions = [{
-    question: "What is the population of Brazil?",
-    choices: ["145 million", "199 million", "182 million", "205 million"],
+    question: "How do you say please in Spanish?",
+    choices: ["ciao", "por favor", "xiexie (谢谢)", "porsze"],
     correctAnswer: 1
 }, {
-    question: "What is 27*14?",
-    choices: ["485", "634", "408", "528"],
+    question: "How do you say 'Where are you from' in Chinese?",
+    choices: ["nishinaguoren (你是哪国人？)", "de donde eres?", "...nun odi imnikka?(...는 어디 입니까?)", "gdzie jest?"],
+    correctAnswer: 0
+}, {
+    question: "How do you say 'okay' in Polish?",
+    choices: ["Bien", "Prosto", "Spoko", "Pa"],
     correctAnswer: 2
 }, {
-    question: "What is the busiest train station in the world?",
-    choices: ["Grand Central, NY", "Shibuya, Tokyo", "Beijing Central, Chine", "Gard du Nord, Paris"],
+    question: "How do you say 'Can I see the menu' in Korean?",
+    choices: ["eolmaimnikka (얼마입니까?)", "keyi-maidan (可以买单)", "lai-ge-caidan (来个菜单)", "Mehnyu juseyo (메뉴 주세요)"],
+    correctAnswer: 3
+}, {
+    question: "How do you say 'I don't understand' in Chinese?",
+    choices: ["No entiendo", "tingbudong (听不懂)", "Nie rozumiem", "manzou (慢走)"],
     correctAnswer: 1
-}, {
-    question: "What is the longest river?",
-    choices: ["Nile", "Amazon", "Mississippi", "Yangtze"],
-    correctAnswer: 0
-}, {
-    question: "What is the busiest tube station in the London?",
-    choices: ["Waterloo", "Baker Street", "Kings Cross", "Victoria"],
-    correctAnswer: 0
 }];
 
 var currentQuestion = 0;

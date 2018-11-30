@@ -27,6 +27,9 @@
 	<script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
   <script src="js/bootstrap.min.js"></script>
 
+  <!-- linking J-script-->
+	<script src="js/index_quiz.js"></script>
+
   <!-- Link to Font Awesome -->
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
 
@@ -64,7 +67,10 @@
       								<div class="dropdown-divider"></div>
       							</div>
       								</li>
-      						<li class="nav-item">
+                  <li class="nav-item">
+      							<a class="nav-item nav-link" href="#quiz" role="button">Take Our Quiz</a>
+      								</li>
+                  <li class="nav-item">
       							<a class="nav-item nav-link" href="#meettheteam" role="button">Meet The Team</a>
       								</li>
       						<li class="nav-item">
@@ -142,9 +148,21 @@
   </div>
 </div>
 
-<!--Babbel API-->
-  <div class="centre jumbotron">
-    <p> here goes the babbel API</p>
+<!--Quiz -->
+  <div class="centre quiz-jumbotron">
+    <div class="quizContainer">
+      <h1>How much have you learnt?</h1>
+      <p class="lead">
+        <a class="btn btn-primary btn-lg" href="#startquiz" role="button">Start Quiz!</a>
+      </p>
+
+       <div class="question"></div>
+       <ul class="choiceList"></ul>
+       <div class="quizMessage"></div>
+       <div class="result"></div>
+       <div class="nextButton">Next Question</div>
+       <br>
+     </div>
   </div>
 
 <!--Meet the Team -->
