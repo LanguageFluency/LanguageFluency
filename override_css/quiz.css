@@ -18,7 +18,7 @@ a.nav-link:hover {
 
 .jumbatron{
   text-align: center;
-  height: 40rem;
+  height: 15rem;
   margin-bottom: 0;
 }
 
@@ -61,14 +61,20 @@ input[type=radio] {
     border: 0px;
     width: 20px;
     height: 2em;
-}
+    display: inline-block;
+    position: relative;
+    border-radius: 50px;
+    cursor: pointer;
+    margin-right: 7px;
+    outline: none;
+  }
+
 
 /* Quiz Classes */
 .main-quiz{
-  height: 28rem;
+  height: 25rem;
   width: 60%;
-  background-color: #F6D8AE;
-  margin: 0 auto;
+  background-image: url("../images/land.jpg");  margin: 0 auto;
   position: relative;
   top: -110px;
 }
@@ -84,7 +90,6 @@ input[type=radio] {
 .question {
     font-family: sans-serif;
     font-size: 2rem;
-    font-weight: bold;
     width: 90%;
     margin: 0 auto;
     height: auto;
@@ -96,28 +101,27 @@ input[type=radio] {
     font-family: sans-serif;
     color: #264653;
     position: relative;
+    display: inline-block;
+    font-size: 10px;
+}
+
+.nextButton {
+    color: #287391;
+    border: none;
+    padding: 20px;
+    margin: 10 auto;
     text-align: center;
 }
 
-.nextButton btn{
-    background-color: #264653;
-    border: none;
-    padding: 20px;
-    position: relative;
-    margin: 0 auto;
-    display: block;
-    justify-content: center;
-    text-align: center;
-}
 
 .quizMessage {
     background-color: peachpuff;
-    border-radius: 6px;
+    border-radius: 10px;
     width: 30%;
     margin: auto;
     text-align: center;
     padding: 2px;
-    font-family:'Rokkitt', serif;
+    font-family: sans-serif;
     color: red;
 }
 
@@ -128,7 +132,7 @@ input[type=radio] {
     background-color: linen;
     margin: auto;
     text-align: center;
-    font-family:'Rokkitt', serif;
+    font-family: sans-serif;
 }
 /* End of Quiz Classes */
 

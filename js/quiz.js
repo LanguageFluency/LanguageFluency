@@ -1,22 +1,24 @@
+
+
 var questions = [{
-    question: "How do you say please in Spanish?",
-    choices: ["ciao", "por favor", "xiexie (谢谢)", "porsze"],
+    question: "How do you say 'Please' in Spanish?",
+    choices: ["Ciao", "Por favor", "Xiexie (谢谢)", "Porsze"],
     correctAnswer: 1
 }, {
     question: "How do you say 'Where are you from' in Chinese?",
-    choices: ["nishinaguoren (你是哪国人？)", "de donde eres?", "...nun odi imnikka?(...는 어디 입니까?)", "gdzie jest?"],
+    choices: ["Nishinaguoren (你是哪国人？)", "De donde eres?", "...Nun odi imnikka?(...는 어디 입니까?)", "Gdzie jest?"],
     correctAnswer: 0
 }, {
-    question: "How do you say 'okay' in Polish?",
+    question: "How do you say 'Okay' in Polish?",
     choices: ["Bien", "Prosto", "Spoko", "Pa"],
     correctAnswer: 2
 }, {
     question: "How do you say 'Can I see the menu' in Korean?",
-    choices: ["eolmaimnikka (얼마입니까?)", "keyi-maidan (可以买单)", "lai-ge-caidan (来个菜单)", "Mehnyu juseyo (메뉴 주세요)"],
+    choices: ["Eolmaimnikka (얼마입니까?)", "Keyi-maidan (可以买单)", "Lai-ge-caidan (来个菜单)", "Mehnyu juseyo (메뉴 주세요)"],
     correctAnswer: 3
 }, {
     question: "How do you say 'I don't understand' in Chinese?",
-    choices: ["No entiendo", "tingbudong (听不懂)", "Nie rozumiem", "manzou (慢走)"],
+    choices: ["No entiendo", "Tingbudong (听不懂)", "Nie rozumiem", "Manzou (慢走)"],
     correctAnswer: 1
 }];
 
@@ -40,26 +42,24 @@ $(document).ready(function () {
                 $(document).find(".quizMessage").text("Please select an answer");
                 $(document).find(".quizMessage").show();
             } else {
-                // TODO: Remove any message -> not sure if this is efficient to call this each time....
+
                 $(document).find(".quizMessage").hide();
 
                 if (value == questions[currentQuestion].correctAnswer) {
                     correctAnswers++;
                 }
 
-                currentQuestion++; // Since we have already displayed the first question on DOM ready
+                currentQuestion++;
                 if (currentQuestion < questions.length) {
                     displayCurrentQuestion();
                 } else {
                     displayScore();
-                    //                    $(document).find(".nextButton").toggle();
-                    //                    $(document).find(".playAgainButton").toggle();
-                    // Change the text in the next button to ask if user wants to play again
+
                     $(document).find(".nextButton").text("Play Again?");
                     quizOver = true;
                 }
             }
-        } else { // quiz is over and clicked the next button (which now displays 'Play Again?'
+        } else {
             quizOver = false;
             $(document).find(".nextButton").text("Next Question");
             resetQuiz();
@@ -70,7 +70,6 @@ $(document).ready(function () {
 
 });
 
-// This displays the current question AND the choices
 function displayCurrentQuestion() {
 
     console.log("In display current Question");
@@ -80,10 +79,8 @@ function displayCurrentQuestion() {
     var choiceList = $(document).find(".quizContainer > .choiceList");
     var numChoices = questions[currentQuestion].choices.length;
 
-    // Set the questionClass text to the current question
     $(questionClass).text(question);
 
-    // Remove all current <li> elements (if any)
     $(choiceList).find("li").remove();
 
     var choice;
