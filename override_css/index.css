@@ -10,7 +10,7 @@
 
 .navbar{
   width: 100%;
-  position: fixed;
+  position: relative;
   margin: 0 auto;
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
@@ -134,7 +134,7 @@ h3#Promise {
 
 .selectlanguage {
   width: 100%;
-  height: 35rem;
+  height: 40em;
   background-color: #B7C9DB;
 }
 
@@ -221,7 +221,7 @@ h3#Promise {
 .quiz-jumbotron{
   background-color: #F6D8AE;
   width: 100%;
-  height: 35rem;
+  height: 40em;
   display: flex;
   flex-direction: column
   padding: 30px;
@@ -232,7 +232,7 @@ h3#Promise {
   height: 29rem;
   padding: 10px;
   border: 10px solid #264653;
-  margin-top: 50px;
+  margin-top: 80px;
   margin-bottom: 30px;
 }
 
