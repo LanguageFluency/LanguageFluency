@@ -17,6 +17,18 @@ var questions = [{
     choices: ["Eolmaimnikka (얼마입니까?)", "Keyi-maidan (可以买单)", "Lai-ge-caidan (来个菜单)", "Mehnyu juseyo (메뉴 주세요)"],
     correctAnswer: 3
 }, {
+    question: "How do you say 'What do I know?' in Spanish?",
+    choices: ["seguir recto", "nishuoshenmehuaya (你说什么话呀？)", "Como conecemos", "Que se yo"],
+    correctAnswer: 3
+}, {
+    question: "How do you say 'Excuse me?' in Korean?",
+    choices: ["sillyehamnida (실례합니다)", "qingwen (请问)", "hoel (헐)", "Pomocy!"],
+    correctAnswer: 0
+}, {
+    question: "How do you say 'How are you?' in Polish?",
+    choices: ["Eolmaimnikka (얼마입니까?)", "Kurcze", "Jak się masz?", "Que tal?"],
+    correctAnswer: 2
+}, {
     question: "How do you say 'I don't understand' in Chinese?",
     choices: ["No entiendo", "Tingbudong (听不懂)", "Nie rozumiem", "Manzou (慢走)"],
     correctAnswer: 1
@@ -97,7 +109,7 @@ function resetQuiz() {
 }
 
 function displayScore() {
-    $(document).find(".quizContainer > .result").text("You scored: " + correctAnswers + " out of: " + questions.length);
+    $(document).find(".quizContainer > .result").text("You scored: " + correctAnswers + " out of " + questions.length);
     $(document).find(".quizContainer > .result").show();
 }
 
