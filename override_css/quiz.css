@@ -5,15 +5,25 @@ body{
 
 .nav{
   margin-bottom: 70px;
+  font-size: 1rem;
+
 }
 
 .nav-item{
   color: #F6D8AE;
+  text-align: -webkit-match-parent;
+}
+
+.nav-link{
+  display: block;
+  padding: .5rem 1rem;
 }
 
 .size {
-  font-size: 1rem;
-  font-family: sans-serif;
+  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+  font-size: 1.1rem;
+  font-weight: 400;
+  line-height: 1.5;
 }
 
 a.nav-link:hover {
@@ -45,8 +55,14 @@ a.nav-link:hover {
 /* Quiz */
 
 ul {
-    list-style: none;
+  list-style: none;
 }
+
+#potential-answers{
+  font-family: sans-serif;
+  color: #264653;
+}
+
 li {
     font-family: sans-serif;
     color: #264653;
@@ -66,11 +82,11 @@ input[type=radio] {
   background-image: url("../images/land.jpg");  margin: 0 auto;
   position: relative;
   top: 100px;
-  border: 5px solid #264653;
+  border: 3px solid #264653;
 }
 
  .quizContainer {
-    height: 38rem;
+    height: 37rem;
     width: 100%;
     position: relative;
     margin: 0 auto;
@@ -137,7 +153,8 @@ input[type=radio] {
 
 .social-buttons{
   margin-bottom: 0;
-  margin-top: 120px;
+  position: relative;
+  top: 180px;
 }
 
 #facebook{
