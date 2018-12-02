@@ -2,7 +2,7 @@
 
 var questions = [{
     question: "How do you say 'Please' in Spanish?",
-    choices: ["Ciao", "Por favor", "Xiexie (谢谢)", "Porsze"],
+    choices: ["Ciao", "Por favor", "Xiexie (谢谢)", "Prosze"],
     correctAnswer: 1
 }, {
     question: "How do you say 'Where are you from' in Chinese?",
